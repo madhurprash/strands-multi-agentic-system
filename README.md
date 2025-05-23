@@ -201,7 +201,11 @@ View some of the results below:
 
 ## Observability
 
-❗❗ `LANGSMITH` INTEGRATION WORK IN PROGRESS ❗❗
+View the traces in `Langfuse` dashboard below:
+
+![langfuse](img/trace1.png)
+
+![langfuse](img/trace2.png)
 
 
 
