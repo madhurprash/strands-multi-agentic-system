@@ -9,7 +9,11 @@ model_information:
   finance_agent_model_info: 
     # Represents the model id that the agent will use within 
     # the strands agents SDK
-    model_id: us.anthropic.claude-sonnet-4-20250514-v1:0
+    # The finance agent is not a complicated agent but calls a tool that requires
+    # code generation. We will power the agent with a small model (Nova Micro), but 
+    # will use a larger, more comprehensive model for code generation (view the code gen
+    # model info section below)
+    model_id: us.amazon.nova-micro-v1:0
     # Represents the inference parameters that the foundation model
     # uses at runtime during inference
     inference_parameters:
@@ -39,7 +43,7 @@ model_information:
 code_gen_model_info:
   # Represents the model id that the agent will use within 
   # the strands agents SDK
-  model_id: us.anthropic.claude-sonnet-4-20250514-v1:0
+  model_id: us.anthropic.claude-3-5-sonnet-20240620-v1:0
   # Represents the inference parameters that the foundation model
   # uses at runtime during inference
   inference_parameters:

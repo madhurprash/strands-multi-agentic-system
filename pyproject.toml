@@ -15,4 +15,5 @@ dependencies = [
     "strands-agents-tools",
     "zmq",
     "langgraph>=0.4.5",
+    "litellm>=1.70.4",
 ]
