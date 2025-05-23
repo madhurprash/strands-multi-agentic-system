@@ -5,6 +5,9 @@ description = "This is a multi-agent collaboration system that manages a finance
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "litellm",
+    "mem0ai",
+    "opensearch-py",
     "boto3",
     "botocore",
     "watchdog",
@@ -14,6 +17,5 @@ dependencies = [
     "strands-agents",
     "strands-agents-tools",
     "zmq",
-    "langgraph>=0.4.5",
-    "litellm>=1.70.4",
+    "langgraph>=0.4.5"
 ]
